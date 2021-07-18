@@ -18,7 +18,6 @@ imageRouter.get('', [
         return res.status(422).json({ errors: errors.array() })
     }
     const size   = req.query.size;
-    console.log(size);
 
     try{
         if(myCache.has('IMAGE_DATA_KEY')){

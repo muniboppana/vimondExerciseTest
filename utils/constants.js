@@ -1,5 +1,5 @@
 const PONG_MESSAGE = "pong";
-const NODE_VERSION_MSG = "current node version is"
+const NODE_VERSION_MSG = "current node version is ;  "
 
 
 module.exports = {

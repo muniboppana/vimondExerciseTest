@@ -16,11 +16,11 @@ app.use('/todo',newTodoRouter)
 
 
 app.get("*",function(req,res){
-    res.send("Not Found ", 404);
+    res.status(404).send("Not Found ", 404);
 })
 
 app.post("*",function(req,res){
-    res.send("Not Found ", 404);
+    res.status(404).send("Not Found ", 404);
 })
 module.exports = app
 

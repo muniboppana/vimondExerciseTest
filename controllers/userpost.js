@@ -45,8 +45,9 @@ userPostRouter.get('/Romaguera',async (req, res) => {
         }
 
     } catch (e) {
-        res.status(400).send(e);
         console.log(e);
+        res.status(400).send(e);
+
     }
 
 })
@@ -68,6 +69,7 @@ userPostRouter.get('/sorted-users', async (req, resp)=>{
         }
 
     }catch (exp){
+        console.log(exp);
         resp.status(400).send(exp);
     }
 

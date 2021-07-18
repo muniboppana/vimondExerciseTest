@@ -4,7 +4,7 @@ versionRouter.get('',  (req, res) => {
     try{
         res.status(200).send(constants.NODE_VERSION_MSG + process.version);
     }catch (exp){
-        res.status(400).send(exp.json());
+        res.status(500).send(exp.json());
     }
 })
 
