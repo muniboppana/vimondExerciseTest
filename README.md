@@ -1,7 +1,8 @@
 /**
-install node.js package from internet.
-dev tools like Webstrom or visual studio code
-clone the project from github and import the project.
+install node.js package from net.
+install dev tools like Webstrom or visual studio code from net.
+clone the project from github and import the project into dev tool
+https://github.com/muniboppana/vimondExerciseTest
 once imported and open the terminal.
 run the command as "npm install" in terminal.
 start the server command as "npm start".
