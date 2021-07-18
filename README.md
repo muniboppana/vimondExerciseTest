@@ -2,14 +2,16 @@
 
 The main purpose of the project to invoke get and post services by using node js and return data based on the input given by user.
 
-Dev env Setup
+#Dev env Setup 
+
 install node js package.
 install Webstorm IDE or Visual studio.
 clone the project from GitHub. Below is the url.
 https://github.com/muniboppana/vimondExerciseTest
 once imported the project into IDE and open the Terminal.
 
-Build and Execution on Terminal
+#Build and Execution on Terminal
+
 Enter  "npm install" 
 Enter  "npm start"
 Open the browser and then hit below url's.
@@ -36,7 +38,8 @@ Open the browser and then hit below url's.
  
 
 
-//Negative scenarios
+#Verify Negative scenarios
+
 12) http://localhost:8040/images?size=n ,  Display the error message in UI if provide the other than numeric. example like 1x,abc....
 13) http://localhost:8040/images?size=n&&offset=a,  Display the error message in UI if provide the other than numeric. example like 1x,abc....
 
