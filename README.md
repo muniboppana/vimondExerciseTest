@@ -1,12 +1,18 @@
-/**
-install node.js package from net.
-install dev tools like Webstrom or visual studio code from net.
-clone the project from github and import the project into dev tool
+#vimondExerciseTest
+
+The main purpose of the project to invoke get and post services by using node js and return data based on the input given by user.
+
+Dev env Setup
+install node js package.
+install Webstorm IDE or Visual studio.
+clone the project from GitHub. Below is the url.
 https://github.com/muniboppana/vimondExerciseTest
-once imported and open the terminal.
-run the command as "npm install" in terminal.
-start the server command as "npm start".
-open the browser and then  hit the below url's for success response.
+once imported the project into IDE and open the Terminal.
+
+Build and Execution on Terminal
+Enter  "npm install" 
+Enter  "npm start"
+Open the browser and then hit below url's.
 
 1) http://localhost:8040/ping
 2) http://localhost:8040/version

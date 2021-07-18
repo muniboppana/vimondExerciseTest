@@ -24,11 +24,11 @@ imageRouter.get('', [
             res.send(myCache.get('IMAGE_DATA_KEY'));
         } else {
             const fetchResp = await fetch(routes.GET_PHOTOS_URI);
-            const photos = await fetchResp.json();
+            const photosResponse = await fetchResp.json();
             const querySize =  req.query.size ? parseInt(req.query.size) : 0;
-            const result = querySize === 0 ? photos : req.query.offset ?
-            photos.slice(((req.query.offset * querySize)), ((req.query.offset * querySize) + querySize)) :
-            photos.slice(0,querySize);
+            const result = querySize === 0 ? photosResponse : req.query.offset ?
+                photosResponse.slice(((req.query.offset * querySize)), ((req.query.offset * querySize) + querySize)) :
+                photosResponse.slice(0,querySize);
             myCache.set('IMAGE_DATA_KEY',result,10);
             res.status(200).contentType('application/json').send(result);
 
