@@ -16,15 +16,15 @@ Enter  "npm install"
 Enter  "npm start"
 Open the browser and then hit below url's.
 
-1) http://localhost:8040/ping
-2) http://localhost:8040/version
-3) http://localhost:8040/images
-4) http://localhost:8040/images?size=n   n is the integer number 1,2,3....
-5) http://localhost:8040/images?size=n&&offset=a   n&a, are the integer number 1,2,3....
-6) http://localhost:8040/Nicholas
-7) http://localhost:8040/Romaguera
+1) http://{ipaddress}:8040/ping
+2) http://{ipaddress}:8040/version
+3) http://{ipaddress}:8040/images
+4) http://{ipaddress}:8040/images?size=n   n is the integer number 1,2,3....
+5) http://{ipaddress}:8040/images?size=n&&offset=a   n&a, are the integer number 1,2,3....
+6) http://{ipaddress}:8040/Nicholas
+7) http://{ipaddress}:8040/Romaguera
 8) This is post implementation, so run this url in postman with below body.
-   http://localhost:8040/todo  
+   http://{ipaddress}:8040/todo  
 
    { "userId": 1,
    "id": 1,
@@ -32,7 +32,7 @@ Open the browser and then hit below url's.
    "completed": false
    }
    
-9) http://localhost:8040/sorted-users
+9) http://{ipaddress}:8040/sorted-users
 10) implemented the cache feature with 10 seconds for all methods.
 11) implemented the Jest cases for two methods.
  
@@ -40,6 +40,6 @@ Open the browser and then hit below url's.
 
 #Verify Negative scenarios
 
-12) http://localhost:8040/images?size=n ,  Display the error message in UI if provide the other than numeric. example like 1x,abc....
-13) http://localhost:8040/images?size=n&&offset=a,  Display the error message in UI if provide the other than numeric. example like 1x,abc....
+12) http://{ipaddress}:8040/images?size=n ,  Display the error message in UI if provide the other than numeric. example like 1x,abc....
+13) http://{ipaddress}:8040/images?size=n&&offset=a,  Display the error message in UI if provide the other than numeric. example like 1x,abc....
 
